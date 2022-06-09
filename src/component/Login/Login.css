@@ -1,0 +1,87 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+.form-title{
+   text-align: center;
+   color: #2A414F;
+}
+.form{
+    box-shadow: 1px 1px 5px rgb(210, 205, 205);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.form-label{
+    display: block;
+    margin-left: 5px;
+}
+.form-section{
+    margin-bottom: 15px;
+}
+.form-section input{
+    outline-color: #f0ad47;
+    font-size: 18px;
+    width: 415px;
+    height: 35px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.form-submit{
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 12px 0px;
+    background-color: #f0ad47;
+    cursor: pointer;
+    transition: .3s;
+}
+.form-submit:hover{
+    background-color: #f0960f;
+
+}
+.account-create{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.account-create p{
+    margin: 0px;
+}
+.account-create a{
+    text-decoration: none;
+    color: #f0ad47;
+    margin-left: 5px;
+}
+.or-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or-line small{
+    padding-bottom: 5px;
+    margin: 15px;
+}
+.small-line{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(211, 203, 203);
+    margin: 15px;
+}
+.sign-in-btn img{
+    width: 15px;
+    margin-right: 10px;
+}
+.sign-in-btn{
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 3px;
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}

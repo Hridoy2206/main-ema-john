@@ -7,6 +7,9 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+.nav-link{
+    display: flex;
+}
 .header a{
     color: #ffff;
     text-decoration: none;

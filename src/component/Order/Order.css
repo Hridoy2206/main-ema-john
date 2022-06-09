@@ -1,0 +1,19 @@
+
+.product-details-container{
+    margin-left: 30px;
+}
+.cart-container{
+    margin-right: 30px;
+}
+.move-about{
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 25px;
+    background-color: #444;
+    color: #fff;
+    transition: .3s;
+}
+.move-about:hover{
+    background-color: #ff5200;
+}

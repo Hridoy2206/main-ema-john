@@ -1,0 +1,36 @@
+.review-section-container{
+    width: 570px;
+    display: flex;
+    padding: 8px;
+    margin-top: 20px;
+    /* border: 1px solid rgb(186, 184, 184); */
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(209, 206, 206);
+}
+.review-image img{
+    width: 90px;
+}
+.review-details-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review-info p{
+    margin: 0px;
+    margin-left: 15px;
+}
+.orange-color{
+    color: rgb(255, 165, 0);
+    font-weight: 400;
+}
+.review-delete button{
+    border: none;
+    font-size: 25px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #e89595;
+    background-color: #ddd;
+    cursor: pointer;
+}
